@@ -22,15 +22,14 @@ Clone it locally:
 
 ```bash
 git clone https://github.com/msitarzewski/agency-agents.git
-
+```
 Navigate into the directory:
 
-bash
+```bash
 cd agency-agents
-
-📁 2. # Copy neccessary agents to your Claude Code agents directory 
-mkdir -p ~/.claude/agents
-
+```
+## 📁 2. # Copy neccessary agents to your Claude Code agents directory 
+``` bash
 # 👔 Senior Project Manager
 cp management/senior-project-manager.md ~/.claude/agents/
 
@@ -48,10 +47,10 @@ cp quality/evidence-collector.md ~/.claude/agents/
 
 # 🔍 Reality Checker
 cp quality/reality-checker.md ~/.claude/agents/
+```
+## 🤖 3. Open Claude and enter prompts from prompt.md
 
-🤖 3. Open Claude and enter prompts from prompt.md
-
-🤖 4. it will e=generate md files for you 
+## 🤖 4. it will e=generate md files for you 
 
 Claude will automatically:
 
@@ -69,7 +68,7 @@ Output documentation and artifacts
 
 Wait for Claude to complete the full workflow.
 
-🧩 4. Agents Included
+🧩 Agents Included
 This project uses the following enterprise‑grade agents:
 
 👔 Senior Project Manager – Scope, milestones, dependencies
@@ -86,7 +85,7 @@ This project uses the following enterprise‑grade agents:
 
 These agents collaborate to produce a complete, audit‑ready credentialing system.
 
-🚀 5. Running the System
+## 🚀 5. Running the System
 Once your .md file is in the agents/ folder:
 
 Open Claude
@@ -99,7 +98,7 @@ Review generated artifacts
 
 Export code, diagrams, and documentation as needed
 
-📚 6. Credentialing Workflow Overview
+## 📚 6. Credentialing Workflow Overview
 The automated system will support:
 
 CAQH API retrieval
@@ -118,6 +117,6 @@ Provider onboarding handoff
 
 Audit logs and compliance documentation
 
-📝 7. Contributing
+## 📝 7. Contributing
 Pull requests are welcome.
 For major changes, open an issue to discuss your proposal.
